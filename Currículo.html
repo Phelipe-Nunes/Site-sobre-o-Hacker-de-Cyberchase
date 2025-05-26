@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cyberchase - Currículo Hacker</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    body {
+      background: #000000; /* Fundo preto */
+      color: #ecf0f1;
+      line-height: 1.6;
+      padding: 20px;
+      background-attachment: fixed;
+      /* background-image: url('imagens/hacker-lateral.png'); */
+      background-repeat: no-repeat;
+      background-position: right top;
+      background-size: 180px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      background: #121212; /* Fundo sólido, sem neblina */
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px #a855f7;
+      /* animação removida */
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    header img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      margin-right: 20px;
+      border: 3px solid #a855f7;
+      box-shadow: 0 0 15px #a855f7;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #a855f7;
+    }
+
+    header h2 {
+      font-size: 1.2rem;
+      color: #c084fc;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    section h3 {
+      border-left: 5px solid #a855f7;
+      padding-left: 15px;
+      margin-bottom: 15px;
+      color: #a855f7;
+      font-size: 1.5rem;
+    }
+
+    .experience div, .education div {
+      margin-bottom: 15px;
+    }
+
+    .skills .bar {
+      background: #4b5563;
+      border-radius: 20px;
+      margin-bottom: 10px;
+      overflow: hidden;
+    }
+
+    .skills .bar-fill {
+      padding: 10px;
+      color: white;
+      border-radius: 20px;
+      background: #9333ea;
+      width: auto; /* barra estática, sem animação */
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      align-items: start;
+    }
+
+    .card {
+      background: #1e1b29;
+      border-radius: 15px;
+      padding: 15px;
+      box-shadow: 0 0 10px #9333ea;
+      /* sem transição ou hover */
+      min-height: 180px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      header img {
+        margin-bottom: 10px;
+      }
+
+      body {
+        background-position: center bottom;
+        background-size: 120px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <!-- Adicione aqui a imagem do Hacker -->
+      <img src="HACKER.jpg" alt="Hacker - Cyberchase" />
+      <div>
+        <h1>Hacker (Cyberchase)</h1>
+        <h2>Vilão Digital e Gênio da Engenharia</h2>
+      </div>
+    </header>
+
+    <section class="about">
+      <h3>SOBRE MIM HAHAHA</h3>
+      <p>Eu sou o Hacker, o maior gênio do Ciberespaço (segundo eu mesmo). Meu objetivo é conquistar o Ciberespaço, superando qualquer obstáculo matemático ou tecnológico que apareça. Com inteligência, criatividade e algumas artimanhas, estou sempre tramando novos planos para dominar tudo — e atrapalhar aqueles intrometidos do Matt, Inez, Jackie e Digit!</p>
+    </section>
+
+    <section class="experience">
+      <h3>EXPERIÊNCIA PROFISSIONAL</h3>
+      <div>
+        <strong>Autoproclamado Governante do Ciberespaço</strong> – Cyberchase (2002 - Presente)<br />
+        <em>Criação de planos complexos para dominar o Ciberespaço, enfrentando heróis e resolvendo desafios tecnológicos.</em>
+      </div>
+      <div>
+        <strong>Engenheiro de Sistemas Maliciosos</strong> – Base Secreta no Ciberespaço<br />
+        <em>Desenvolvimento de vírus, armadilhas digitais e algoritmos engenhosos para tomar controle de sistemas.</em>
+      </div>
+      <div>
+        <strong>Inventor e Estrategista</strong> – Projetos Pessoais<br />
+        <em>Construção de máquinas, robôs e dispositivos que auxiliam na dominação do Ciberespaço.</em>
+      </div>
+    </section>
+
+    <section class="education">
+      <h3>FORMAÇÃO ACADÊMICA</h3>
+      <div>
+        <strong>Universidade do Cibercrime</strong> – Doutorado em Engenharia Digital e Matemática Aplicada
+      </div>
+    </section>
+
+    <section class="skills">
+      <h3>HABILIDADES TÉCNICAS</h3>
+      <div class="bar">
+        <div class="bar-fill" style="width: 95%">Estratégia e Manipulação</div>
+      </div>
+      <div class="bar">
+        <div class="bar-fill" style="width: 90%">Engenharia de Sistemas</div>
+      </div>
+      <div class="bar">
+        <div class="bar-fill" style="width: 85%">Programação Maliciosa</div>
+      </div>
+      <div class="bar">
+        <div class="bar-fill" style="width: 80%">Criação de Armadilhas Digitais</div>
+      </div>
+    </section>
+
+    <section class="projects">
+      <h3>PROJETOS</h3>
+      <div class="card">
+        <h4>Plano de Dominação Global</h4>
+        <p>Desenvolvimento de um supercomputador para controlar todos os planetas do Ciberespaço.</p>
+      </div>
+      <div class="card">
+        <h4>Invasão ao Sistema Central</h4>
+        <p>Projeto para derrubar as barreiras digitais e assumir o controle dos servidores principais.</p>
+      </div>
+      <div class="card">
+        <h4>Criação do Robô Maligno</h4>
+        <p>Construção de robôs autônomos para executar tarefas de sabotagem digital e espionagem.</p>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
